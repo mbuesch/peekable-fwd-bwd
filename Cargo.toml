@@ -1,0 +1,17 @@
+[package]
+name = "peekable-fwd-bwd"
+description = "Iterator Peekable with multi-forward-peek and multi-backward-peek"
+version = "1.0.0"
+edition = "2021"
+authors = [ "Michael Büsch <m@bues.ch>" ]
+license = "MIT OR Apache-2.0"
+homepage = "https://bues.ch/"
+repository = "https://github.com/mbuesch/peekable-fwd-bwd"
+readme = "README.md"
+categories = [ "no-std", "data-structures", "rust-patterns", "algorithms" ]
+keywords = [ "iterator", "peek", "multipeek", "nth" ]
+
+[dependencies]
+arraydeque = { version = "0.5", default-features = false }
+
+# vim: ts=4 sw=4 expandtab
