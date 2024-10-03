@@ -3,6 +3,7 @@ name = "peekable-fwd-bwd"
 description = "Iterator Peekable with multi-forward-peek and multi-backward-peek"
 version = "1.0.0"
 edition = "2021"
+rust-version = "1.75.0"
 authors = [ "Michael Büsch <m@bues.ch>" ]
 license = "MIT OR Apache-2.0"
 homepage = "https://bues.ch/"
